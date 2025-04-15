@@ -1,9 +1,20 @@
+import "../styles/header.css";
+
+
 export default function Header() {
     return (
+        <header className="header">
+            <div className="logo">
+                <img src="/logo.png" alt="Logo-App" />
+            </div>
 
-        <header className="flex items-center justify-between p-4 bg-gray-800 text-white">
-            <h1>Financial App</h1>
-            </header> 
-            )
-
-};
+            <nav className="menu">
+                <ul>
+                    <li><a href="#">Option 1</a></li>
+                    <li><a href="#"></a>Option 2</li>
+                    <li><a href="#"></a>Option 3</li>
+                </ul>
+            </nav>
+            </header>
+    );
+}

@@ -1,8 +1,8 @@
- 
 import React from 'react';
 import Header from '@/components/header';
 import Balance from '@/components/balance';
 import TransactionList from '@/components/transaction';
+import '../styles/globals.css';
 
 
       export default function Home() {
